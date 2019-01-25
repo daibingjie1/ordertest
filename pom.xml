@@ -5,5 +5,4 @@
     <artifactId>my_test</artifactId>
     <packaging>war</packaging>
     <name>my_test</name>
-    <url>http://maven.apache.org</url>
 </project>
