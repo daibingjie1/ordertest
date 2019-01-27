@@ -22,7 +22,7 @@
                 <version>2.1.1</version>
                 <configuration>
                     <!-- 设置WebContent目录为Web目录 -->
-                    <webXml>webapp\WEB-INF</webXml>
+                    <webXml>webapp\WEB-INF\web.xml</webXml>
                     <!--指定jsp等文件所在位置-->
                     <warSourceDirectory>webapp</warSourceDirectory>
                 </configuration>
