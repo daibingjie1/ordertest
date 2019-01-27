@@ -10,7 +10,6 @@
     <name>my_test</name>
 
     <url>http://maven.apache.org</url>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -20,9 +19,11 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>2.1.1 </version>
+                <version>2.1.1</version>
                 <configuration>
-                    <failOnMissingWebXml> false </failOnMissingWebXml>
+                    <!-- 设置WebContent目录为Web目录 -->
+                    <webappDirectory>webapp</webappDirectory>
+                    <warSourceDirectory>webapp</warSourceDirectory>
                 </configuration>
             </plugin>
         </plugins>
