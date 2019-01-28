@@ -23,7 +23,7 @@
                 <configuration>
                     <!-- 设置WebContent目录为Web目录 -->
                     <webappDirectory>src/main/webapp/</webappDirectory>
-                    <warSourceDirectory>src/main/webapp/</warSourceDirectory>
+                    <warSourceDirectory>src/main/webapp</warSourceDirectory>
                 </configuration>
             </plugin>
         </plugins>
